@@ -87,7 +87,6 @@ public class StudentDAOImpl implements StudentDAO {
         }catch (RuntimeException runtimeException){
             throw new RuntimeException(runtimeException);
         }
-        //entityManager.createQuery("delete from Student ",Student.class).executeUpdate();
         return null;
     }
 }
